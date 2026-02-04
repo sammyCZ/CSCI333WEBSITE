@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 1 — Introduction</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f2;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      color: #cc0066;
+    }
+
+    a {
+      color: #cc0066;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="content">
+    <h1>Week 2: Sorting Algorithms</h1>
+
+    <p><strong>Date:</strong> Jan 26 – Jan 28</p>
+
+    <h2>Topics Covered</h2>
+    <ul>
+      <li>Binary Search, QuickSort, MergeSort</li>
+      <li>Comparison Based Sorting</li>
+      <li>MergeSort analysis</li>
+      <li>Asymptotic Notation</li>
+    </ul>
+
+    <h2>Topics Covered</h2>
+    <h3>Recursion</h3>
+    <p>There are two core components for recursion to work properly: </p>
+    <ul>
+      <li>Base case: the condition that stops recursion</li>
+      <li>Recursive case: the function calls itself, which simplifies the original problem by shrinking the input size.</li>
+    </ul>
+
+    <h3>Divide and Conquer Algorithms</h3>
+    <p>1. Divide: These algorithms break a big problem into smaller subproblems.</p>
+    <p>2. Conquer: Solve the subproblems (recursively).</p>
+    <p>3. Merge: Combine the results</p>
+    <p>Examples are: QuickSort, MergeSort</p>
+
+
+    <h3>Quick Sort</h3>
+    <p>Quick sort is a sorting algorithm that:</p>
+    <p>1. Picks a pivot</p>
+    <p>2. Partition the array into elements less than the pivot and greater than the pivot</p>
+    <p>3. Recursively sorts the left subarray</p>
+    <p>4. Recursively sorts the right subarray</p>
+    <p>5. Stops when base case is met (size 0 or 1)</p>
+
+    <p>Notes: </p>
+    <p>Quick sort can be slow with a bad pivot (especially on already sorted arrays) but can be strengthened by a randomized pivot (aka Randomized Quick sort). </p>
+
+    <p>Runtime:</p>
+    <ul>
+    <li>Best case: O(n log n)</li>
+    <li>Average case: O(n log n)</li>
+    <li>Worst case: O(n²)</li>
+    </ul>
+
+    <h3>Merge Sort</h3>
+    <p>Merge sort is a sorting algorithm that:</p>
+    <p>1. Splits the array in half to create a left and right subarray</p>
+    <p>2. Recursively sorts the left subarray</p>
+    <p>3. Recursively sorts the right subarray</p>
+    <p>4. Merges the two subarrays into one sorted array</p>
+    <p>5. Stops when base case is met (size 0 or 1)</p>
+
+
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="files/Week 2_Question 1.pdf">Review Session (PDF)</a></li>
+      <li><a href="[videolinkhere]">Video Recording</a></li>
+    </ul>
+
+    <p><a href="index.html">← Back to Weekly Overview</a></p>
+  </div>
+
+</body>
+</html>
